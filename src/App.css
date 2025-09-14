@@ -1,0 +1,29 @@
+.main-color{
+  color: #FF00BF !important;
+}
+.black-color{
+  color: #101010;
+}
+.main-section-title{
+  color: #FF00BF;
+  font-size: 45px;
+  font-weight: 500;
+}
+.section-subtitle{
+  font-size: 32px;
+  color: #101010;
+  font-weight: 600;
+  line-height: 1;
+}
+.slider-arrow{
+      border: 1px solid #FF00BF !important;
+    color: #FF00BF !important;
+    transition: all 0.3s ease;
+}
+.slider-arrow:hover{
+      background-color: #FF00BF !important;
+    color: #fff !important; 
+}
+.card{
+  border-color: #FF00BF !important;
+}

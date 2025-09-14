@@ -1,0 +1,52 @@
+.border-right{
+    border-right: 3px solid #36363680;
+}
+.about-title{
+    color: #101010;
+    font-weight: 600;
+    font-size: 40px;
+}
+.about-desc{
+    color: #344054CC;
+    font-weight: 500;
+    font-size: 24px;
+}
+.animated-row-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-42%); /* يتحرك نص العرض لأننا مكررين المحتوى مرتين */
+  }
+}
+
+.animated-row-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  transform: rotate(2deg);
+}
+
+.animated-row-1 {
+  background-color: #000;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  animation: infinite-scroll 10s linear infinite; /* كل 15 ثانية يلف */
+  width: max-content;
+}
+
+@media (max-width:767px) {
+    .border-right{
+        border-right: none;
+    }
+    .animated-row-wrapper{
+      transform: rotate(0deg);
+
+    }
+}

@@ -1,0 +1,18 @@
+.btn-outline-dark:hover{
+    background-color: #101010 !important;
+}
+.btn-dark{
+    background-color: #101010 !important;
+}
+.content-card{
+    border: 2px solid #FF00BF !important;
+    border-radius: 0px !important;
+    min-height: 400px;
+}
+.virtual-img img{
+    height: 500px;
+}
+.toggle-btn{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}

@@ -1,0 +1,150 @@
+header{
+    min-height: 100vh;
+    width: 100%;
+}
+.custom-navbar {
+    background-color: #101010; /* أسود */
+    border-radius: 12px;
+    margin: 10px;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    letter-spacing: -1.5%;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #FF00BF !important; /* لون بنفسجي عند الـ hover */
+  }
+  
+  .text-highlight {
+    color: #FF00BF !important; /* Home highlighted */
+  }
+  
+  .custom-btn {
+    border: 1px solid #FF00BF !important;
+    color: #fff !important;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #FF00BF !important;
+    color: #fff !important;
+  }
+  
+  .hello{
+    font-size: 72px;
+    color: #101010;
+    font-weight: 500;
+  }
+  .main-title{
+    font-size: 150px;
+    font-weight: 600;
+    color: #101010;
+  }
+  .sub-title{
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .vector-2{
+    position: absolute;
+    left: -75px;
+    top: 20px;
+  }
+  .header-clients{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .quote-icon{
+    color:#344054 ;
+    font-size: 35px;
+}
+.star-icon{
+    font-size: 20px;
+}
+.quote-desc{
+    color:#344054 ;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .years{
+    font-size: 47px;
+    font-weight: 600;
+    color: #171717;
+}
+.experince{
+    font-size: 20px;
+    font-weight: 400;
+    color: #171717;
+  }
+  @media (max-width:1150px) {
+    .hello{
+        font-size: 50px;
+    }
+    .main-title{
+        font-size: 100px;
+    }
+    .sub-title{
+        font-size: 24px;
+    }
+    .vector-2{
+        width: 50px;
+        height: 50px;
+        left: -50px;
+    }
+  }
+  @media (max-width:900px) {
+    .hello{
+        font-size: 40px;
+    }
+    .main-title{
+        font-size: 80px;
+    }
+    .sub-title{
+        font-size: 18px;
+    }
+    .quote-desc,.header-clients, .experince{
+        font-size: 16px;
+    }
+    .years{
+        font-size: 30px;
+    }
+    .quote-icon{
+        font-size: 24px;
+    }
+  }
+  @media (max-width:700px) {
+    .logo{
+        width: 60px;
+        height: 45px;
+    }
+    .hello{
+        font-size: 30px;
+    }
+    .main-title{
+        font-size: 55px;
+    }
+    .vector-2,.vector-1{
+        width: 25px;
+        height: 25px;
+        left: 0px;
+    }
+    .sub-title{
+        font-size: 16px;
+    }
+    .users{
+        height: 30px;
+    }
+    .years{
+        font-size: 24px;
+    }
+    .quote-desc,.header-clients, .experince{
+        font-size: 14px;
+    }
+    .star-icon{
+        font-size: 16px;
+    }
+  }

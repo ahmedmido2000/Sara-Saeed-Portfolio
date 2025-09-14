@@ -1,0 +1,6 @@
+.why-card:hover{
+    background-color: #000 ;
+}
+.why-card:hover .service-title, .why-card:hover .service-desc{
+    color: #fff ;
+}

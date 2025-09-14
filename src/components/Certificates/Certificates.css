@@ -1,0 +1,26 @@
+.certificates{
+    background-color: #F5F5F5;
+}
+  .cert-number{
+    font-size: 64px;
+    color: #34405480;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* تغيير حجم الـ dots */
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 8px;
+    background: #101010; /* اللون الافتراضي */
+    opacity: 1;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+  }
+  
+  /* dot النشطة */
+  .swiper-pagination-bullet-active {
+    background: #ff00aa; /* اللون البنفسجي/الفوشيا */
+    width: 37px;
+  }
+  
