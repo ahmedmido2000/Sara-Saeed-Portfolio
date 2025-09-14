@@ -1,11 +1,15 @@
 .certificates{
     background-color: #F5F5F5;
 }
+.certificate-card{
+  min-height: 370px;
+}
   .cert-number{
     font-size: 64px;
     color: #34405480;
     font-weight: 900;
     font-style: italic;
+    font-family: 'Urbanist', sans-serif;
   }
 
 /* تغيير حجم الـ dots */

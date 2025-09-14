@@ -5,9 +5,11 @@ footer{
     font-size: 45px;
     font-weight: 600;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 .footer-desc{
     font-size: 20px;
     color: #fff;
     font-weight: 500;
+    font-family: 'Urbanist', sans-serif;
 }

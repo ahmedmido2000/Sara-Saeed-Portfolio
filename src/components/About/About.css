@@ -5,16 +5,19 @@
     color: #101010;
     font-weight: 600;
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 .about-desc{
     color: #344054CC;
     font-weight: 500;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
 }
 .animated-row-text{
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 @keyframes infinite-scroll {
   0% {

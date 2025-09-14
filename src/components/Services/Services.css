@@ -37,11 +37,13 @@
     color: #344054;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
   }
   .service-desc{
     color: #344054;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
   }
   .service-img{
     background-color: #FF00BF;
@@ -51,6 +53,7 @@
     color: #FF00BF;
     font-weight: 500;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
   }
   
   .service-link:hover {

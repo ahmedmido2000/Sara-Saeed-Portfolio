@@ -109,7 +109,7 @@ const Highlights = () => {
           <div className="col-lg-3 col-6 mb-4">
             <div
               onClick={() => setActive("content")}
-              className={`btn text-nowrap w-100 py-3 toggle-btn ${
+              className={`btn w-100 py-3 toggle-btn ${
                 active === "content" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
@@ -119,7 +119,7 @@ const Highlights = () => {
           <div className="col-lg-3 col-6 mb-4">
             <div
               onClick={() => setActive("virtual")}
-              className={`btn text-nowrap w-100 py-3 toggle-btn ${
+              className={`btn w-100 py-3 toggle-btn ${
                 active === "virtual" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
@@ -129,7 +129,7 @@ const Highlights = () => {
           <div className="col-lg-3 col-6 mb-4">
             <div
               onClick={() => setActive("social")}
-              className={`btn text-nowrap w-100 py-3 toggle-btn ${
+              className={`btn w-100 py-3 toggle-btn ${
                 active === "social" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
@@ -139,7 +139,7 @@ const Highlights = () => {
           <div className="col-lg-3 col-6 mb-4">
             <div
               onClick={() => setActive("youtube")}
-              className={`btn text-nowrap w-100 py-3 toggle-btn ${
+              className={`btn w-100 py-3 toggle-btn ${
                 active === "youtube" ? "btn-dark" : "btn-outline-dark"
               }`}
             >

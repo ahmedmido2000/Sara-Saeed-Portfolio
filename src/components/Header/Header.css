@@ -1,5 +1,5 @@
 header{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
 }
 .custom-navbar {
@@ -14,6 +14,7 @@ header{
     font-weight: 600 !important;
     letter-spacing: -1.5%;
     transition: color 0.3s ease;
+    font-family: 'Inter', sans-serif;
   }
   
   .nav-link:hover {
@@ -28,6 +29,7 @@ header{
     border: 1px solid #FF00BF !important;
     color: #fff !important;
     transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
   }
   
   .custom-btn:hover {
@@ -39,15 +41,18 @@ header{
     font-size: 72px;
     color: #101010;
     font-weight: 500;
+    font-family: 'Inter', sans-serif;
   }
   .main-title{
     font-size: 150px;
     font-weight: 600;
     color: #101010;
+    font-family: 'Inter', sans-serif;
   }
   .sub-title{
     font-size: 32px;
     font-weight: 500;
+    font-family: 'Inter', sans-serif;
   }
   .vector-2{
     position: absolute;
@@ -57,6 +62,7 @@ header{
   .header-clients{
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
   }
   .quote-icon{
     color:#344054 ;
@@ -69,16 +75,19 @@ header{
     color:#344054 ;
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
   }
   .years{
     font-size: 47px;
     font-weight: 600;
     color: #171717;
+    font-family: 'Poppins', sans-serif;
 }
 .experince{
     font-size: 20px;
     font-weight: 400;
     color: #171717;
+    font-family: 'Poppins', sans-serif;
   }
   @media (max-width:1150px) {
     .hello{

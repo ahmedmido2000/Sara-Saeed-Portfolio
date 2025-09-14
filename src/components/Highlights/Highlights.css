@@ -7,7 +7,7 @@
 .content-card{
     border: 2px solid #FF00BF !important;
     border-radius: 0px !important;
-    min-height: 400px;
+    min-height: 450px;
 }
 .virtual-img img{
     height: 500px;
@@ -15,4 +15,5 @@
 .toggle-btn{
     font-size: 20px !important;
     font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif !important;
 }

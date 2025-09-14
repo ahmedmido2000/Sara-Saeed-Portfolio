@@ -57,7 +57,7 @@ const Certificates = () => {
               <div className="card certificate-card shadow-sm p-4 h-100">
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <img src={cert.img} alt={cert.title} className="cert-logo" />
-                  <span className="cert-number display-6 fw-bold text-muted">
+                  <span className="cert-number  fw-bold">
                     {cert.id}
                   </span>
                 </div>

@@ -6,18 +6,20 @@
     background-repeat: no-repeat;
 }
 .testimonials-card{
-    margin-top: 160px;
+    margin-top: 170px;
     margin-left: 90px;
 }
 .testimonials-card .card-title{
     font-size: 36px;
     font-weight: 800;
     color: #000;
+    font-family: 'Manrope', sans-serif;
 }
 .testimonials-card .card-text{
     font-size: 18px;
     font-weight: 400;
     color: #000;
+    font-family: 'Manrope', sans-serif;
 }
 .swipe-arrows{
     font-size: 30px;
