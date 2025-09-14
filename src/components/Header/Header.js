@@ -67,7 +67,7 @@ const Header = () => {
             </ul>
 
             {/* CTA Button */}
-            <a href="https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share" target='_blank' className="btn btn-outline-light py-2 custom-btn">
+            <a href="https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share" target='_blank' className="btn btn-outline-light py-2 custom-btn mb-3 mb-lg-0">
                 Let’s Work Together
             </a>
             </div>
