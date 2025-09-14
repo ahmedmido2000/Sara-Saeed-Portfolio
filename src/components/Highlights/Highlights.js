@@ -300,27 +300,27 @@ const Highlights = () => {
       </div>
       <div className="animated-row-wrapper mt-5 mb-5">
   <div className="animated-row-1 p-2">
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Social media content</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Virtual Assistance</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Copywriting</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Content Writing</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">AI-Powered Creative</p>
 
     {/* 👇 نكرر نفس العناصر مرتين علشان الشريط يبان مستمر */}
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Social media content</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Virtual Assistance</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Copywriting</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">Content Writing</p>
-    <img src="assets/star-8.png" alt="" />
+    <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">AI-Powered Creative</p>
   </div>
 </div>

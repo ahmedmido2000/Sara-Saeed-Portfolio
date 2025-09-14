@@ -76,11 +76,11 @@ const Header = () => {
             <div className="d-flex flex-column align-items-center justify-content-center mt-5">
                 <div className="d-flex gap-2 align-items-start">
                     <h2 className='hello m-0'>Hello</h2>
-                    <img src="assets/vector-1.png" className='vector-1' alt="vector" />
+                    <img src="assets/Vector-1.png" className='vector-1' alt="vector" />
                 </div>
                 <h1 className='main-title text-center m-0'>I’m <span className='main-color'>Sara Saeed</span></h1>
                 <div className="d-flex flex-wrap justify-content-center flex-md-nowrap gap-1 position-relative">
-                    <img src="assets/vector-2.png" className='vector-2' alt="vector" />
+                    <img src="assets/Vector-2.png" className='vector-2' alt="vector" />
                     <h6 className='sub-title m-0 black-color mt-1 text-nowrap'>AI-Powered Creative</h6>
                     <h6 className='sub-title m-0 black-color'>|</h6>
                     <h6 className='sub-title m-0 main-color mt-1 text-nowrap'>Social Media Strategist</h6>
