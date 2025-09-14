@@ -2,10 +2,21 @@
     background-color: #F5F5F5;
 }
 
-.swiper-slide {
-  display: flex; /* عشان يخلي الكارد يتمدد */
-  height: auto;  /* مهم عشان ياخد الطول */
+.certificates .swiper-slide {
+  display: flex;
+  height: auto;
 }
+
+.certificates .certificate-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.certificates .certificate-card p {
+  flex-grow: 1;
+}
+
 
   .cert-number{
     font-size: 64px;
