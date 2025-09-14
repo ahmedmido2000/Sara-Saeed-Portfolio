@@ -50,7 +50,7 @@ const Certificates = () => {
             0: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
           }}
-          className='pb-md-5'
+          className='pb-5'
         >
           {certificates.map((cert) => (
             <SwiperSlide key={cert.id}>

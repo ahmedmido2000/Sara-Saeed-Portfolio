@@ -1,9 +1,12 @@
 .certificates{
     background-color: #F5F5F5;
 }
-.certificate-card{
-  min-height: 370px;
+
+.swiper-slide {
+  display: flex; /* عشان يخلي الكارد يتمدد */
+  height: auto;  /* مهم عشان ياخد الطول */
 }
+
   .cert-number{
     font-size: 64px;
     color: #34405480;
