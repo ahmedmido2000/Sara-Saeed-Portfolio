@@ -32,7 +32,7 @@ const Certificates = () => {
   ];
 
   return (
-    <section className="certificates py-5">
+    <section className="certificates py-5" id="certificates">
       <div className="container-fluid px-md-5">
         <h2 className="main-section-title">Certificates</h2>
         <p className="section-subtitle mb-4">

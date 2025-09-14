@@ -2,8 +2,8 @@ import React from 'react'
 import './About.css'
 const About = () => {
   return (
-    <section className='about my-md-5'>
-        <div className="container-fluid px-md-5">
+    <section className='about my-md-5' id='about'>
+        <div className="container-fluid px-md-5 py-5">
             <div className="row">
                 <div className="col-md-4 border-right">
                     <img src="assets/about.png" alt="" />

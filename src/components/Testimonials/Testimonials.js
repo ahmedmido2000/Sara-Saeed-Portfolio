@@ -50,7 +50,7 @@ const Testimonials = () => {
   const totalSlides = cards.length;
 
   return (
-    <section className="testimonials position-relative mt-4">
+    <section className="testimonials position-relative mt-4" id="testimonials">
       <div className="container-fluid px-md-5 pt-5">
         <h2 className="ps-md-5 pt-4 main-section-title">Testimonials</h2>
         <Swiper

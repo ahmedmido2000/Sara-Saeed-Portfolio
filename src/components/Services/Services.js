@@ -51,7 +51,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="services py-5">
+    <section className="services py-5" id="services">
       <div className="container-fluid px-md-5">
         <div className="d-flex justify-content-between flex-wrap flex-md-nowrap gap-md-5 align-items-center mb-4">
           <div>

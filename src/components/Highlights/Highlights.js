@@ -101,7 +101,7 @@ const Highlights = () => {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <div className="container-fluid px-md-5 pt-5">
         <h2 className="main-section-title mb-4">Portfolio Highlights</h2>
         {/* 🔘 الأزرار */}
