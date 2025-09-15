@@ -36,7 +36,7 @@ const Services = () => {
       id: 4,
       imgMain: "assets/icon-4-main.png",
       imgSecondary: "assets/icon-4-secondary.png",
-      title: "Copy Writing ",
+      title: "Copywriting ",
       text: "Delivering persuasive words that capture attention, spark interest, and inspire action.",
       link: "https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share"
     },

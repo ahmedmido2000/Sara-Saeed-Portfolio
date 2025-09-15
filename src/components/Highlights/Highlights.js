@@ -143,7 +143,7 @@ const Highlights = () => {
                 active === "youtube" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
-              YouTube script
+              YouTube scripts
             </div>
           </div>
         </div>
