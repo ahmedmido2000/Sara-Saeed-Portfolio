@@ -99,7 +99,7 @@ const Services = () => {
                   <h5 className="mb-0 service-title">{service.title}</h5>
                 </div>
                 <p className="mb-3 service-desc">{service.text}</p>
-                <a href={service.link} className="service-link" target='_blank'>
+                <a href={service.link} className="service-link" target='_blank' rel="noreferrer">
                   Let’s Work Together <i className="fa-solid fa-arrow-right ms-1"></i>
                 </a>
               </div>

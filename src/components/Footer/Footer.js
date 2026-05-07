@@ -13,7 +13,7 @@ const Footer = () => {
                     <img src="assets/up.png" className='img-fluid' alt="img-up" />
                     <p className='m-0 footer-desc mb-2'>you can hire me on upwork</p>
                 </div>
-                <a href='https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share' className="service-link text-white" target='_blank'>
+                <a href='https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share' className="service-link text-white" target='_blank' rel="noreferrer">
                   Let’s Work Together <i className="fa-solid fa-arrow-right ms-1"></i>
                 </a>
             </div>

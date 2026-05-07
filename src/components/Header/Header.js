@@ -7,7 +7,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg py-0 py-md-1 navbar-dark custom-navbar px-4">
         <div className="container-fluid">
             {/* Logo */}
-            <a className="navbar-brand d-flex align-items-center" href="#">
+            <a className="navbar-brand d-flex align-items-center" href="/">
             <img
                 src="assets/logo.png"
                 alt="Sara Saeed Logo"
@@ -67,7 +67,7 @@ const Header = () => {
             </ul>
 
             {/* CTA Button */}
-            <a href="https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share" target='_blank' className="btn btn-outline-light py-2 custom-btn mb-3 mb-lg-0">
+            <a href="https://www.upwork.com/freelancers/~01f39ce7f40c46b85c?companyReference=1644800527016685569&mp_source=share" target='_blank' rel="noreferrer" className="btn btn-outline-light py-2 custom-btn mb-3 mb-lg-0">
                 Let’s Work Together
             </a>
             </div>
