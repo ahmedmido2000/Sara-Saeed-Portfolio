@@ -73,7 +73,7 @@ const Services = () => {
 
         <Swiper
           modules={[Navigation, Autoplay]}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 10000 }}
           loop={true}
           navigation={{
             nextEl: ".services-next",

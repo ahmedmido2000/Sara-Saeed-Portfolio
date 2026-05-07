@@ -111,7 +111,7 @@ const Highlights = () => {
           <>
           <Swiper
           modules={[Navigation, Autoplay]}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 10000 }}
           loop={true}
           navigation={{
             nextEl: ".email-next",
@@ -150,9 +150,25 @@ const Highlights = () => {
 
         {/* 📌 Direct Response */}
         {active === "direct" && (
-          <div className="row">
+          <>
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            autoplay={{ delay: 10000 }}
+            loop={true}
+            navigation={{
+              nextEl: ".direct-next",
+              prevEl: ".direct-prev",
+            }}
+            spaceBetween={30}
+            slidesPerView={3}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              992: { slidesPerView: 3 },
+            }}
+          >
             {directResponseImages.map((img, index) => (
-              <div className="col-md-4 mb-4" key={index}>
+              <SwiperSlide key={index}>
                 <div className="virtual-img">
                   <img
                     src={img}
@@ -160,9 +176,19 @@ const Highlights = () => {
                     className="card-img-top"
                   />
                 </div>
-              </div>
+              </SwiperSlide>
             ))}
+          </Swiper>
+          {/* 🔽 أزرار النافيجيشن */}
+          <div className="d-flex justify-content-center gap-3 mt-3">
+            <button className="direct-prev slider-arrow py-2 btn">
+              <i className="fa-solid fa-arrow-left"></i>
+            </button>
+            <button className="direct-next slider-arrow py-2 btn">
+              <i className="fa-solid fa-arrow-right"></i>
+            </button>
           </div>
+          </>
         )}
 
 {/* 📌 Social Media Content */}

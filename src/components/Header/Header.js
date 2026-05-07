@@ -81,7 +81,7 @@ const Header = () => {
                 <h1 className='main-title text-center m-0'>I’m <span className='main-color'>Sara Saeed</span></h1>
                 <div className="d-flex flex-wrap justify-content-center flex-md-nowrap gap-1 position-relative">
                     <img src="assets/Vector-2.png" className='vector-2' alt="vector" />
-                    <h6 className='sub-title m-0 black-color mt-1 text-nowrap d-flex flex-wrap justify-content-center gap-1'>Email & Sales Copywriter for <h6 className='sub-title m-0 main-color mt-1 text-nowrap'>eCommerce Brands</h6></h6>
+                    <h6 className='sub-title m-0 black-color mt-1 text-nowrap d-flex flex-wrap justify-content-center gap-1'>Email & Sales Copywriter for <h6 className='sub-title m-0 main-color text-nowrap'>eCommerce Brands</h6></h6>
                 </div>
                 <div className="d-flex align-items-center border px-md-5 px-3 py-2 rounded-2 gap-1 mt-xl-5 mt-md-4 mt-3">
                     <img src="assets/users.png" className='users' alt="users" />
