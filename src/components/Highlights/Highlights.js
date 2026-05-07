@@ -111,7 +111,7 @@ const Highlights = () => {
           <>
           <Swiper
           modules={[Navigation, Autoplay]}
-          autoplay={{ delay: 10000 }}
+          autoplay={{ delay: 15000 }}
           loop={true}
           navigation={{
             nextEl: ".email-next",
