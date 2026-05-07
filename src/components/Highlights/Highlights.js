@@ -9,7 +9,7 @@ import "./Highlights.css";
 const Highlights = () => {
   const [active, setActive] = useState("email");
 
-  // 📧 Email Marketing Images
+  // Email Marketing Images
   const emailImages = [
     "assets/Email marketing/9bc251d3-80c4-4ef4-94d3-549fcb2113fb.jpg",
     "assets/Email marketing/IMG_5321.PNG",
