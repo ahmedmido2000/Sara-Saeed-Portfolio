@@ -7,47 +7,28 @@ import "swiper/css/navigation";
 import "./Highlights.css";
 
 const Highlights = () => {
-  const [active, setActive] = useState("content");
+  const [active, setActive] = useState("email");
 
-  // 📝 Content Writing Data
-  const contentWritingProjects = [
-    {
-      id: 1,
-      title: "Beauty Copywriting: Skincare Content Writing for Beauty Brands",
-      desc: "The world of beauty, on the consumer side, is characterized by the marked trend towards online purchases. As a result, organizations that have chosen to go online are constantly seeking new ways to attract and inspire customers. This need has become even more apparent in recent times, given the increasing competition.",
-      link: "https://www.conceptsnc.com/en/copywriting-beauty-industry/",
-    },
-    {
-      id: 2,
-      title: "Ancient Egyptian Clothing",
-      desc: "Do you like to shop with your parents for new clothes? Or do you think that shopping is boring? How different do you think your clothing is from that of people who lived 5,000 years ago in ancient Egypt? Let’s journey through time to discover more.",
-      link: "https://www.archaeologynow.org/egypt-blog/blog-post-title-two-hz67c",
-    },
-    {
-      id: 3,
-      title: "Best Oud Perfumes for Men to Smell SUPER ATTRACTIVE!",
-      desc: "Discover the best Oud perfumes for men to smell irresistible with our top 8 recommendations. Achieve a super attractive scent! There is something undeniably alluring about the rich, woody notes…",
-      link: "https://www.shama-perfumes.com/blogs/news/best-oud-perfumes-for-men-to-smell-super-attractive?srsltid=AfmBOoofyKECzA885ODFQS4cYBCflcoZWOiwuKaPluBZwYpEhecPY8CH",
-    },
-    {
-      id: 4,
-      title: "Engagement rings & wedding rings: How much should you spend?",
-      desc: "Deciding to propose to someone is a big deal. It's like saying, 'Hey, I want to spend the rest of my life with you.' And with that big decision often comes another one: picking out the perfect rings for the big moment. But a burning question is, how much should you spend on these rings?",
-      link: "https://docs.google.com/document/d/1OZkcdbct6lUu_ihg_1WcqmT_F7mNcavcutrmWjjb16w/edit?tab=t.0#heading=h.nobdrfdypccp",
-    },
-    {
-      id: 5,
-      title: " PayPal VS. Credit Card?",
-      desc: "Understanding Safety with PayPal Compared to Credit Cards PayPal is a platform that lets people send and receive money electronically and safely. When considering safety, compare PayPal to using a credit card. Here's a deep dive into the safety and tips to keep your money even more secure.",
-      link: "https://docs.google.com/document/d/1Al81Fq7iI1CIe24ZMv4zlaEp4rUAAFSp0ULDTyY0jDI/edit?tab=t.0",
-    },
+  // 📧 Email Marketing Images
+  const emailImages = [
+    "assets/Email marketing/9bc251d3-80c4-4ef4-94d3-549fcb2113fb.jpg",
+    "assets/Email marketing/IMG_5321.PNG",
+    "assets/Email marketing/IMG_5322.PNG",
+    "assets/Email marketing/IMG_5323.PNG",
+    "assets/Email marketing/IMG_5324.PNG",
+    "assets/Email marketing/IMG_5365.PNG",
+    "assets/Email marketing/IMG_5366.WEBP",
+    "assets/Email marketing/IMG_5948.PNG",
+    "assets/Email marketing/IMG_5949.PNG",
   ];
 
-  // 📸 Virtual Assistance Images
-  const virtualImages = [
-    "assets/virtual-1.png",
-    "assets/virtual-2.png",
-    "assets/virtual-3.png",
+  // 🎯 Direct Response Images
+  const directResponseImages = [
+    "assets/Direct Response/1927ba9c-4af1-458a-8f4e-4f82d1cfef4c.jpg",
+    "assets/Direct Response/8bf3945f-99ad-41a4-8dba-e3fb8a334da2.jpg",
+    "assets/Direct Response/950d8cb0-23f3-4f8c-8a15-6ba3fcfdad42.jpg",
+    "assets/Direct Response/9bc251d3-80c4-4ef4-94d3-549fcb2113fb.jpg",
+    "assets/Direct Response/IMG_5931.PNG",
   ];
 
   // 📸 Social Media Content Images
@@ -66,38 +47,15 @@ const Highlights = () => {
     "assets/social-12.png",
   ];
 
-  // 🎥 YouTube Script Projects
-  const youtubeProjects = [
-    {
-      id: 1,
-      title: "Ancient Mysteries",
-      desc: "The pyramids of Giza, blending history, myth, and mystery, remain timeless marvels—built for pharaohs, surrounded by legends, and still inspiring awe, wonder, and endless exploration today.",
-      link: "https://docs.google.com/document/d/1_olaKhEWlG0Mvhi-c1VJUFc2V07g1eaB9czJul2w_kA/edit?tab=t.0",
-    },
-    {
-      id: 2,
-      title: "Fort Knox script",
-      desc: "Fort Knox, America’s legendary vault, hides millions of gold ounces behind impenetrable walls, fierce security, and enduring mysteries that fuel endless speculation and global fascination.",
-      link: "https://docs.google.com/document/d/1Arietuq1MechbmSwg0JS_0oLcKRam6h2NxkPzTro7as/edit?tab=t.0",
-    },
-    {
-      id: 3,
-      title: "George Pickering",
-      desc: "The pyramids of Giza, timeless wonders of ancient Egypt, rise above the desert sands with colossal stones, hidden chambers, and enduring mysteries that inspire awe, theories, and fascination worldwide.",
-      link: "https://docs.google.com/document/d/12pJpNEwpgXO5B-5VbrpSzVv7fnKRpCW-XQ4v-hupesk/edit?tab=t.0",
-    },
-    {
-      id: 4,
-      title: "M1 Finance vs. Wealthfront.",
-      desc: "Wealthfront offers automated portfolios, goal planning, and tax-loss harvesting for investors, while M1 Finance provides customizable portfolios, lower entry, and flexibility for self-directed investors.",
-      link: "https://docs.google.com/document/d/1NUwAfEwjC53owEjLuaweeyoLBOCukLbEUWnAU2bZHf8/edit?tab=t.0#heading=h.9dvprj7kzke",
-    },
-    {
-      id: 5,
-      title: "Maya Civilization",
-      desc: "The Maya thrived in architecture, astronomy, mathematics, agriculture, and rituals, inventing zero, playing ballgames, engaging in warfare, and eventually declining.",
-      link: "https://docs.google.com/document/d/1Al81Fq7iI1CIe24ZMv4zlaEp4rUAAFSp0ULDTyY0jDI/edit?tab=t.0",
-    },
+  // 🔄 Before & After Images
+  const beforeAfterImages = [
+    "assets/Before & After/18EB999A-06CF-4C48-97F3-20B6DD7B7B9B.png",
+    "assets/Before & After/4A35AC32-9220-440C-BBDB-DE892159D38B.png",
+    "assets/Before & After/E02C5B25-B41D-451C-8A02-9491F2D4B8BB.png",
+    "assets/Before & After/E0F4CDC6-9280-4CC1-B059-9570F22BDB2C.png",
+    "assets/Before & After/F5FDF82C-D498-44D1-B86D-E947DAACED98.png",
+    "assets/Before & After/F8B7BD53-5176-4CF8-9D7A-DAB4CC778128.png",
+    "assets/Before & After/FD9B3242-81D3-4C0B-96B6-C4068388BAF8.png",
   ];
 
   return (
@@ -108,22 +66,22 @@ const Highlights = () => {
         <div className="row mb-4">
           <div className="col-lg-3 col-6 mb-4">
             <div
-              onClick={() => setActive("content")}
+              onClick={() => setActive("email")}
               className={`btn w-100 py-3 toggle-btn ${
-                active === "content" ? "btn-dark" : "btn-outline-dark"
+                active === "email" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
-              Content writing
+              Email Marketing
             </div>
           </div>
           <div className="col-lg-3 col-6 mb-4">
             <div
-              onClick={() => setActive("virtual")}
+              onClick={() => setActive("direct")}
               className={`btn w-100 py-3 toggle-btn ${
-                active === "virtual" ? "btn-dark" : "btn-outline-dark"
+                active === "direct" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
-              Virtual Assistance
+              Direct Response
             </div>
           </div>
           <div className="col-lg-3 col-6 mb-4">
@@ -133,30 +91,31 @@ const Highlights = () => {
                 active === "social" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
-              Social media content
+              Social Media Content
             </div>
           </div>
           <div className="col-lg-3 col-6 mb-4">
             <div
-              onClick={() => setActive("youtube")}
+              onClick={() => setActive("before_after")}
               className={`btn w-100 py-3 toggle-btn ${
-                active === "youtube" ? "btn-dark" : "btn-outline-dark"
+                active === "before_after" ? "btn-dark" : "btn-outline-dark"
               }`}
             >
-              YouTube scripts
+              Before & After
             </div>
           </div>
         </div>
 
-        {/* 📌 Content Writing */}
-        {active === "content" && (
+        {/* 📌 Email Marketing */}
+        {active === "email" && (
+          <>
           <Swiper
           modules={[Navigation, Autoplay]}
           autoplay={{ delay: 3000 }}
           loop={true}
           navigation={{
-            nextEl: ".content-next",
-            prevEl: ".content-prev"
+            nextEl: ".email-next",
+            prevEl: ".email-prev"
           }}
             spaceBetween={30}
             slidesPerView={3}
@@ -166,40 +125,38 @@ const Highlights = () => {
               992: { slidesPerView: 3 },
             }}
           >
-            {contentWritingProjects.map((project) => (
-              <SwiperSlide key={project.id}>
-                <div className="card px-4 py-5 content-card h-100 shadow-sm">
-                  <h5 className="mb-4 service-title">
-                    {project.id}. {project.title}
-                  </h5>
-                  <p className="mb-4 service-desc">{project.desc}</p>
-                  <a href={project.link} target='_blank' className="service-link">
-                    View Project <i className="fa-solid fa-arrow-right ms-1"></i>
-                  </a>
+            {emailImages.map((img, index) => (
+              <SwiperSlide key={index}>
+                <div className="virtual-img">
+                  <img
+                    src={img}
+                    alt={`Email Marketing ${index + 1}`}
+                    className="card-img-top"
+                  />
                 </div>
               </SwiperSlide>
             ))}
-                      {/* 🔽 أزرار النافيجيشن */}
+          </Swiper>
           <div className="d-flex justify-content-center gap-3 mt-3">
-            <button className="content-prev slider-arrow py-2 btn">
+            <button className="email-prev slider-arrow py-2 btn">
               <i className="fa-solid fa-arrow-left"></i>
             </button>
-            <button className="content-next slider-arrow py-2 btn">
+            <button className="email-next slider-arrow py-2 btn">
               <i className="fa-solid fa-arrow-right"></i>
             </button>
           </div>
-          </Swiper>
+          </>
         )}
 
-        {/* 📌 Virtual Assistance */}
-        {active === "virtual" && (
+        {/* 📌 Direct Response */}
+        {active === "direct" && (
           <div className="row">
-            {virtualImages.map((img, index) => (
+            {directResponseImages.map((img, index) => (
               <div className="col-md-4 mb-4" key={index}>
                 <div className="virtual-img">
                   <img
                     src={img}
-                    alt={`Virtual Assistance ${index + 1}`}
+                    alt={`Direct Response ${index + 1}`}
                     className="card-img-top"
                   />
                 </div>
@@ -251,16 +208,16 @@ const Highlights = () => {
   </>
 )}
 
-{/* 📌 YouTube Script */}
-{active === "youtube" && (
+{/* 📌 Before & After */}
+{active === "before_after" && (
   <>
     <Swiper
       modules={[Navigation, Autoplay]}
       autoplay={{ delay: 3000 }}
       loop={true}
       navigation={{
-        nextEl: ".youtube-next",
-        prevEl: ".youtube-prev",
+        nextEl: ".before-next",
+        prevEl: ".before-prev",
       }}
       spaceBetween={30}
       slidesPerView={3}
@@ -270,26 +227,24 @@ const Highlights = () => {
         992: { slidesPerView: 3 },
       }}
     >
-      {youtubeProjects.map((project) => (
-        <SwiperSlide key={project.id}>
-          <div className="card px-4 py-5 content-card h-100 shadow-sm">
-            <h5 className="mb-4 service-title">
-              {project.id}. {project.title}
-            </h5>
-            <p className="mb-4 service-desc">{project.desc}</p>
-            <a href={project.link} className="service-link" target='_blank'>
-              View Project <i className="fa-solid fa-arrow-right ms-1"></i>
-            </a>
+      {beforeAfterImages.map((img, index) => (
+        <SwiperSlide key={index}>
+          <div className="virtual-img">
+            <img
+              src={img}
+              alt={`Before & After ${index + 1}`}
+              className="card-img-top"
+            />
           </div>
         </SwiperSlide>
       ))}
     </Swiper>
     {/* 🔽 أزرار النافيجيشن */}
     <div className="d-flex justify-content-center gap-3 mt-3">
-      <button className="youtube-prev slider-arrow py-2 btn">
+      <button className="before-prev slider-arrow py-2 btn">
         <i className="fa-solid fa-arrow-left"></i>
       </button>
-      <button className="youtube-next slider-arrow py-2 btn">
+      <button className="before-next slider-arrow py-2 btn">
         <i className="fa-solid fa-arrow-right"></i>
       </button>
     </div>
@@ -301,25 +256,25 @@ const Highlights = () => {
       <div className="animated-row-wrapper mt-5 mb-5">
   <div className="animated-row-1 p-2">
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Social media content</p>
+    <p className="animated-row-text m-0">Email Marketing</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Virtual Assistance</p>
+    <p className="animated-row-text m-0">Direct Response</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Copywriting</p>
+    <p className="animated-row-text m-0">Social Media Content</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Content Writing</p>
+    <p className="animated-row-text m-0">Before & After</p>
     <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">AI-Powered Creative</p>
 
     {/* 👇 نكرر نفس العناصر مرتين علشان الشريط يبان مستمر */}
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Social media content</p>
+    <p className="animated-row-text m-0">Email Marketing</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Virtual Assistance</p>
+    <p className="animated-row-text m-0">Direct Response</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Copywriting</p>
+    <p className="animated-row-text m-0">Social Media Content</p>
     <img src="assets/Star-8.png" alt="" />
-    <p className="animated-row-text m-0">Content Writing</p>
+    <p className="animated-row-text m-0">Before & After</p>
     <img src="assets/Star-8.png" alt="" />
     <p className="animated-row-text m-0">AI-Powered Creative</p>
   </div>
